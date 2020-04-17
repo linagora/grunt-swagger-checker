@@ -1,0 +1,14 @@
+image: node:10-stretch
+
+stages:
+  - linter
+
+linter:
+  stage: linter
+  except: 
+    - triggers
+  tags:
+    - docker
+  script:
+    - npm i
+    - ./node_modules/.bin/grunt lint
