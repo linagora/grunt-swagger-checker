@@ -1,5 +1,5 @@
 {
-  "name": "grunt-swagger-checker",
+  "name": "@linagora/grunt-swagger-checker",
   "description": "Grunt plugin for checking swagger syntax",
   "version": "0.1.0",
   "homepage": "",

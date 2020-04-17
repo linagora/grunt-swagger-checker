@@ -1,7 +1,7 @@
 const SwaggerParser = require('@apidevtools/swagger-parser');
 
 module.exports = function(grunt) {
-  grunt.registerTask('swagger_validator', 'Grunt plugin to validate swagger document', function() {
+  grunt.registerTask('swagger_checker', 'Grunt plugin to validate swagger document', function() {
     const done = this.async();
     const options = this.options();
 
